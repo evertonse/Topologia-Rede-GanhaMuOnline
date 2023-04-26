@@ -19,7 +19,7 @@ Precisa ser UDP pois esse tempo de resposta precisa ser rapido, mas ao mesmo tem
 
 # Testando Cliente
 - Rode ``python cliente.py``shell do host ``Client`` para se connectar ao host server ``EmpresaTCPServer``
-- Rode ``python udpcliente.py``shell do host ``UDPClient`` para se connectar ao host server ``EmpresaUDPServer``
+- Rode ``python cliente.py``shell do host ``UDPClient`` para se connectar ao host server ``EmpresaUDPServer``
 - Rode ``wget http://199.212.0.73:80``shell do host ``EmpresaHTTPServer``
 - Em seguinda, rode ``cat index.html`` pra ver o html recebido da EmpresaHTTPServer
 
